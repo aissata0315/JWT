@@ -30,7 +30,7 @@ public class JwtApplication  implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-        accountService.saveUser(new AppUser(null, "admin","1234",null));
+      /*  accountService.saveUser(new AppUser(null, "admin","1234",null));
         accountService.saveUser(new AppUser(null, "user","1234",null));
         accountService.saveRole(new AppRole(null, "ADMIN"));
         accountService.saveRole(new AppRole(null, "USER"));
@@ -44,6 +44,8 @@ public class JwtApplication  implements CommandLineRunner {
         taskRepository.findAll().forEach(t->{
             System.out.println(t.getTaskName());
         });
+
+       */
 
     }
 }
